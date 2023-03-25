@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import BG1 from './assets/bg-3.png'
 import BG2 from './assets/bg-2.png'
 
-import Bagerhat from './component/Bagerhat/Bagerhat'
+// import Bagerhat from './component/Bagerhat/Bagerhat'
 import Dhaka from './component/Dhaka/Dhaka'
 
 const App = () => {
@@ -92,7 +92,7 @@ const App = () => {
       // case 'Munshiganj':
       //   return <Component3 />;
       case 'Mymensingh':
-        return <Component3 />;
+        return <Component2 />;
       // case 'Naogaon':
       //   return <Component3 />;
       // case 'Narail':
