@@ -28,8 +28,8 @@ const App = () => {
       //   return <Component2 />;
       // case 'Barguna':
       //   return <Component3 />;
-      case 'Barisal':
-        return <Barisal />;
+      // case 'Barisal':
+      //   return <Barisal />;
       // case 'Bhola':
       //   return <Component3 />;
       // case 'Bogra':
@@ -40,8 +40,8 @@ const App = () => {
       //   return <Component3 />;
       // case 'Chapainawabganj':
       //   return <Component3 />;
-      case 'Chittagong':
-        return <Chittagong />;
+      // case 'Chittagong':
+      //   return <Chittagong />;
       // case 'Chuadanga':
       //   return <Component3 />;
       // case 'Comilla':
@@ -50,6 +50,10 @@ const App = () => {
       //   return <Component3 />;
       case 'Dhaka':
         return <Dhaka />;
+      case 'Chittagong':
+        return <Chittagong />;
+      case 'Barisal':
+        return <Barisal />;
       // case 'Dinajpur':
       //   return <Component3 />;
       // case 'Faridpur':
@@ -151,7 +155,7 @@ const App = () => {
       // case 'Thakurgaon':
       //   return <Component3 />;
       default:
-        return <Component1 />;
+        return <Dhaka />;
     }
   };
 
@@ -163,7 +167,7 @@ const App = () => {
       <div className='bg2'>
         <img src={BG2} alt='a' />
       </div>
-        <div className='schedule mt-6'>
+        <div className='schedule mt-20'>
         <label htmlFor="options">Select an option:</label>
         <select id="options" value={selectedOption} onChange={handleChange}>
           {/* <option value="Bagerhat">Bagerhat</option>
@@ -241,16 +245,16 @@ const App = () => {
   );
 };
 
-const Component1 = () => {
-  return <h1>Bagerhat</h1>;
-};
+// const Component1 = () => {
+//   return <h1>Bagerhat</h1>;
+// };
 
-const Component2 = () => {
-  return <h1>Bandarban</h1>;
-};
+// const Component2 = () => {
+//   return <h1>Bandarban</h1>;
+// };
 
-const Component3 = () => {
-  return <h1>Component 3</h1>;
-};
+// const Component3 = () => {
+//   return <h1>Component 3</h1>;
+// };
 
 export default App;

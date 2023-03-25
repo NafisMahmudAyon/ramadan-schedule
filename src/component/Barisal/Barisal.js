@@ -51,4 +51,4 @@ const Barisal = () => {
   )
 }
 
-export default Bari
+export default Barisal
