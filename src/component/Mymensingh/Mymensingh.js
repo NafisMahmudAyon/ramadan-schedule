@@ -31,7 +31,7 @@ const Mymensingh = () => {
     )
 
   return (
-    <div className="relative overflow-x-auto shadow-md sm:rounded-lg">Mymensingh
+    <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
         <table className="min-w-full text-sm text-gray-400">
             <thead className="bg-gray-800 text-xs uppercase font-medium">
                 <tr>

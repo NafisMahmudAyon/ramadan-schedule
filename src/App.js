@@ -167,23 +167,35 @@ const App = () => {
       <div className='bg2'>
         <img src={BG2} alt='a' />
       </div>
-        <div className='schedule mt-20'>
-        <label htmlFor="options">Select an option:</label>
-        <select id="options" value={selectedOption} onChange={handleChange}>
+        <div className='schedule mt-20 mb-10'>
+        
+        <select id="options" value={selectedOption} onChange={handleChange} class="block w-full px-4 py-3 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500">
+          <option selected value="Dhaka">Dhaka</option>
+          <option value="Barisal">Barisal</option>
+          <option value="Chittagong">Chittagong</option>
+          <option value="Khulna">Khulna</option>
+          <option value="Mymensingh">Mymensingh</option>
+          <option value="Rajshahi">Rajshahi</option>
+          <option value="Rangpur">Rangpur</option>
+          <option value="Sylhet">Sylhet</option>
+          
+        </select>
+        {/* <label htmlFor="options">Select an option:</label>
+        <select id="options" value={selectedOption} onChange={handleChange}> */}
           {/* <option value="Bagerhat">Bagerhat</option>
           <option value="Bandarban">Bandarban</option>
           <option value="Barguna">Barguna</option> */}
-          <option value="Barisal">Barisal</option>
+          {/* <option value="Barisal">Barisal</option> */}
           {/* <option value="Bhola">Bhola</option>
           <option value="Bogra">Bogra</option>
           <option value="Brahmanbaria">Brahmanbaria</option>
           <option value="Chandpur">Chandpur</option>
           <option value="Chapainawabganj">Chapainawabganj</option> */}
-          <option value="Chittagong">Chittagong</option>
+          {/* <option value="Chittagong">Chittagong</option> */}
           {/* <option value="Chuadanga">Chuadanga</option>
           <option value="Comilla">Comilla</option>
           <option value="Cox's Bazar">Cox's Bazar</option> */}
-          <option value="Dhaka">Dhaka</option>
+          {/* <option selected value="Dhaka">Dhaka</option> */}
           {/* <option value="Dinajpur">Dinajpur</option>
           <option value="Faridpur">Faridpur</option>
           <option value="Feni">Feni</option>
@@ -197,7 +209,7 @@ const App = () => {
           <option value="Jhenaidah">Jhenaidah</option>
           <option value="Joypurhat">Joypurhat</option>
           <option value="Khagrachari">Khagrachari</option> */}
-          <option value="Khulna">Khulna</option>
+          {/* <option value="Khulna">Khulna</option> */}
           {/* <option value="Kishoreganj">Kishoreganj</option>
           <option value="Kurigram">Kurigram</option>
           <option value="Kushtia">Kushtia</option>
@@ -209,7 +221,7 @@ const App = () => {
           <option value="Meherpur">Meherpur</option>
           <option value="Moulvibazar">Moulvibazar</option>
           <option value="Munshiganj">Munshiganj</option> */}
-          <option value="Mymensingh">Mymensingh</option>
+          {/* <option value="Mymensingh">Mymensingh</option> */}
           {/* <option value="Naogaon">Naogaon</option>
           <option value="Narail">Narail</option>
           <option value="Narayanganj">Narayanganj</option>
@@ -224,18 +236,18 @@ const App = () => {
           <option value="Patuakhali">Patuakhali</option>
           <option value="Pirojpur">Pirojpur</option>
           <option value="Rajbari">Rajbari</option> */}
-          <option value="Rajshahi">Rajshahi</option>
+          {/* <option value="Rajshahi">Rajshahi</option> */}
           {/* <option value="Rangamati">Rangamati</option> */}
-          <option value="Rangpur">Rangpur</option>
+          {/* <option value="Rangpur">Rangpur</option> */}
           {/* <option value="Satkhira">Satkhira</option>
           <option value="Shariatpur">Shariatpur</option>
           <option value="Sherpur">Sherpur</option>
           <option value="Sirajganj">Sirajganj</option>
           <option value="Sunamganj">Sunamganj</option> */}
-          <option value="Sylhet">Sylhet</option>
+          {/* <option value="Sylhet">Sylhet</option> */}
           {/* <option value="Tangail">Tangail</option>
           <option value="Thakurgaon">Thakurgaon</option> */}
-        </select>
+        {/* </select> */}
         {renderComponent()}
       </div>
     </div>
