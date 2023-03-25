@@ -5,6 +5,13 @@ import BG2 from './assets/bg-2.png'
 
 // import Bagerhat from './component/Bagerhat/Bagerhat'
 import Dhaka from './component/Dhaka/Dhaka'
+import Barisal from './component/Barisal/Barisal'
+import Chittagong from './component/Chittagong/Chittagong'
+import Khulna from './component/Khulna/Khulna'
+import Mymensingh from './component/Mymensingh/Mymensingh'
+import Rajshahi from './component/Rajshahi/Rajshahi'
+import Rangpur from './component/Rangpur/Rangpur'
+import Sylhet from './component/Sylhet/Sylhet'
 
 const App = () => {
   const [selectedOption, setSelectedOption] = useState('Bagerhat');
@@ -22,7 +29,7 @@ const App = () => {
       // case 'Barguna':
       //   return <Component3 />;
       case 'Barisal':
-        return <Component3 />;
+        return <Barisal />;
       // case 'Bhola':
       //   return <Component3 />;
       // case 'Bogra':
@@ -34,7 +41,7 @@ const App = () => {
       // case 'Chapainawabganj':
       //   return <Component3 />;
       case 'Chittagong':
-        return <Component3 />;
+        return <Chittagong />;
       // case 'Chuadanga':
       //   return <Component3 />;
       // case 'Comilla':
@@ -70,7 +77,7 @@ const App = () => {
       // case 'Khagrachari':
       //   return <Component3 />;
       case 'Khulna':
-        return <Component3 />;
+        return <Khulna />;
       // case 'Kishoreganj':
       //   return <Component3 />;
       // case 'Kurigram':
@@ -92,7 +99,7 @@ const App = () => {
       // case 'Munshiganj':
       //   return <Component3 />;
       case 'Mymensingh':
-        return <Component2 />;
+        return <Mymensingh />;
       // case 'Naogaon':
       //   return <Component3 />;
       // case 'Narail':
@@ -122,11 +129,11 @@ const App = () => {
       // case 'Rajbari':
       //   return <Component3 />;
       case 'Rajshahi':
-        return <Component3 />;
+        return <Rajshahi />;
       // case 'Rangamati':
       //   return <Component3 />;
       case 'Rangpur':
-        return <Component3 />;
+        return <Rangpur />;
       // case 'Satkhira':
       //   return <Component3 />;
       // case 'Shariatpur':
@@ -138,7 +145,7 @@ const App = () => {
       // case 'Sunamganj':
       //   return <Component3 />;
       case 'Sylhet':
-        return <Component3 />;
+        return <Sylhet />;
       // case 'Tangail':
       //   return <Component3 />;
       // case 'Thakurgaon':
@@ -156,7 +163,7 @@ const App = () => {
       <div className='bg2'>
         <img src={BG2} alt='a' />
       </div>
-        <div className='schedule'>
+        <div className='schedule mt-6'>
         <label htmlFor="options">Select an option:</label>
         <select id="options" value={selectedOption} onChange={handleChange}>
           {/* <option value="Bagerhat">Bagerhat</option>
