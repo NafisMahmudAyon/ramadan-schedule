@@ -4,6 +4,7 @@ import BG1 from './assets/bg-3.png'
 import BG2 from './assets/bg-2.png'
 
 import Bagerhat from './component/Bagerhat/Bagerhat'
+import Dhaka from './component/Dhaka/Dhaka'
 
 const App = () => {
   const [selectedOption, setSelectedOption] = useState('Bagerhat');
@@ -14,134 +15,134 @@ const App = () => {
 
   const renderComponent = () => {
     switch (selectedOption) {
-      case 'Bagerhat':
-        return <Bagerhat />;
-      case 'Bandarban':
-        return <Component2 />;
-      case 'Barguna':
-        return <Component3 />;
+      // case 'Bagerhat':
+      //   return <Bagerhat />;
+      // case 'Bandarban':
+      //   return <Component2 />;
+      // case 'Barguna':
+      //   return <Component3 />;
       case 'Barisal':
         return <Component3 />;
-      case 'Bhola':
-        return <Component3 />;
-      case 'Bogra':
-        return <Component3 />;
-      case 'Brahmanbaria':
-        return <Component3 />;
-      case 'Chandpur':
-        return <Component3 />;
-      case 'Chapainawabganj':
-        return <Component3 />;
+      // case 'Bhola':
+      //   return <Component3 />;
+      // case 'Bogra':
+      //   return <Component3 />;
+      // case 'Brahmanbaria':
+      //   return <Component3 />;
+      // case 'Chandpur':
+      //   return <Component3 />;
+      // case 'Chapainawabganj':
+      //   return <Component3 />;
       case 'Chittagong':
         return <Component3 />;
-      case 'Chuadanga':
-        return <Component3 />;
-      case 'Comilla':
-        return <Component3 />;
-      case "Cox's Bazar":
-        return <Component3 />;
+      // case 'Chuadanga':
+      //   return <Component3 />;
+      // case 'Comilla':
+      //   return <Component3 />;
+      // case "Cox's Bazar":
+      //   return <Component3 />;
       case 'Dhaka':
-        return <Component3 />;
-      case 'Dinajpur':
-        return <Component3 />;
-      case 'Faridpur':
-        return <Component3 />;
-      case 'Feni':
-        return <Component3 />;
-      case 'Gaibandha':
-        return <Component3 />;
-      case 'Gazipur':
-        return <Component3 />;
-      case 'Gopalganj':
-        return <Component3 />;
-      case 'Habiganj':
-        return <Component3 />;
-      case 'Jamalpur':
-        return <Component3 />;
-      case 'Jessore':
-        return <Component3 />;
-      case 'Jhalakati':
-        return <Component3 />;
-      case 'Jhenaidah':
-        return <Component3 />;
-      case 'Joypurhat':
-        return <Component3 />;
-      case 'Khagrachari':
-        return <Component3 />;
+        return <Dhaka />;
+      // case 'Dinajpur':
+      //   return <Component3 />;
+      // case 'Faridpur':
+      //   return <Component3 />;
+      // case 'Feni':
+      //   return <Component3 />;
+      // case 'Gaibandha':
+      //   return <Component3 />;
+      // case 'Gazipur':
+      //   return <Component3 />;
+      // case 'Gopalganj':
+      //   return <Component3 />;
+      // case 'Habiganj':
+      //   return <Component3 />;
+      // case 'Jamalpur':
+      //   return <Component3 />;
+      // case 'Jessore':
+      //   return <Component3 />;
+      // case 'Jhalakati':
+      //   return <Component3 />;
+      // case 'Jhenaidah':
+      //   return <Component3 />;
+      // case 'Joypurhat':
+      //   return <Component3 />;
+      // case 'Khagrachari':
+      //   return <Component3 />;
       case 'Khulna':
         return <Component3 />;
-      case 'Kishoreganj':
-        return <Component3 />;
-      case 'Kurigram':
-        return <Component3 />;
-      case 'Kushtia':
-        return <Component3 />;
-      case 'Lakshmipur':
-        return <Component3 />;
-      case 'Lalmonirhat':
-        return <Component3 />;
-      case 'Madaripur':
-        return <Component3 />;
-      case 'Manikganj':
-        return <Component3 />;
-      case 'Meherpur':
-        return <Component3 />;
-      case 'Moulvibazar':
-        return <Component3 />;
-      case 'Munshiganj':
-        return <Component3 />;
+      // case 'Kishoreganj':
+      //   return <Component3 />;
+      // case 'Kurigram':
+      //   return <Component3 />;
+      // case 'Kushtia':
+      //   return <Component3 />;
+      // case 'Lakshmipur':
+      //   return <Component3 />;
+      // case 'Lalmonirhat':
+      //   return <Component3 />;
+      // case 'Madaripur':
+      //   return <Component3 />;
+      // case 'Manikganj':
+      //   return <Component3 />;
+      // case 'Meherpur':
+      //   return <Component3 />;
+      // case 'Moulvibazar':
+      //   return <Component3 />;
+      // case 'Munshiganj':
+      //   return <Component3 />;
       case 'Mymensingh':
         return <Component3 />;
-      case 'Naogaon':
-        return <Component3 />;
-      case 'Narail':
-        return <Component3 />;
-      case 'Narayanganj':
-        return <Component3 />;
-      case 'Narsingdi':
-        return <Component3 />;
-      case 'Natore':
-        return <Component3 />;
-      case 'Nawabganj':
-        return <Component3 />;
-      case 'Netrakona':
-        return <Component3 />;
-      case 'Nilphamari':
-        return <Component3 />;
-      case 'Noakhali':
-        return <Component3 />;
-      case 'Pabna':
-        return <Component3 />;
-      case 'Panchagarh':
-        return <Component3 />;
-      case 'Patuakhali':
-        return <Component3 />;
-      case 'Pirojpur':
-        return <Component3 />;
-      case 'Rajbari':
-        return <Component3 />;
+      // case 'Naogaon':
+      //   return <Component3 />;
+      // case 'Narail':
+      //   return <Component3 />;
+      // case 'Narayanganj':
+      //   return <Component3 />;
+      // case 'Narsingdi':
+      //   return <Component3 />;
+      // case 'Natore':
+      //   return <Component3 />;
+      // case 'Nawabganj':
+      //   return <Component3 />;
+      // case 'Netrakona':
+      //   return <Component3 />;
+      // case 'Nilphamari':
+      //   return <Component3 />;
+      // case 'Noakhali':
+      //   return <Component3 />;
+      // case 'Pabna':
+      //   return <Component3 />;
+      // case 'Panchagarh':
+      //   return <Component3 />;
+      // case 'Patuakhali':
+      //   return <Component3 />;
+      // case 'Pirojpur':
+      //   return <Component3 />;
+      // case 'Rajbari':
+      //   return <Component3 />;
       case 'Rajshahi':
         return <Component3 />;
-      case 'Rangamati':
-        return <Component3 />;
+      // case 'Rangamati':
+      //   return <Component3 />;
       case 'Rangpur':
         return <Component3 />;
-      case 'Satkhira':
-        return <Component3 />;
-      case 'Shariatpur':
-        return <Component3 />;
-      case 'Sherpur':
-        return <Component3 />;
-      case 'Sirajganj':
-        return <Component3 />;
-      case 'Sunamganj':
-        return <Component3 />;
+      // case 'Satkhira':
+      //   return <Component3 />;
+      // case 'Shariatpur':
+      //   return <Component3 />;
+      // case 'Sherpur':
+      //   return <Component3 />;
+      // case 'Sirajganj':
+      //   return <Component3 />;
+      // case 'Sunamganj':
+      //   return <Component3 />;
       case 'Sylhet':
         return <Component3 />;
-      case 'Tangail':
-        return <Component3 />;
-      case 'Thakurgaon':
-        return <Component3 />;
+      // case 'Tangail':
+      //   return <Component3 />;
+      // case 'Thakurgaon':
+      //   return <Component3 />;
       default:
         return <Component1 />;
     }
