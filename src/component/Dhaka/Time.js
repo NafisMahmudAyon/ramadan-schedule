@@ -1,6 +1,6 @@
 const Time = [
     {
-        id: '01',
+        id: 1,
         city : "Dhaka",
         date: "2023-03-24",
         day: "Friday",
@@ -90,7 +90,7 @@ const Time = [
         iftarTime: "6:23 PM",
     },
     {
-        id: 1,
+        id: 11,
         city : "Dhaka",
         date: "2023-04-01",
         day: "Thursday",

@@ -1,5 +1,5 @@
 import React from 'react'
-import Time from './Time'
+import Time from '../Time/Tiime'
 import './index.css'
 
 const Dhaka = () => {
@@ -10,13 +10,13 @@ const Dhaka = () => {
                 <>
                     
                     <tr className="bg-black bg-opacity-20">
-                        <td className="px-6 py-4 whitespace-nowrap">{el.id + 1}</td>
+                        <td className="px-6 py-4 whitespace-nowrap">{el.id}</td>
                         <td className="px-6 py-4 whitespace-nowrap">{el.date}</td>
                         <td className="px-6 py-4 whitespace-nowrap">{el.day}</td>
-                        <td className="px-6 py-4 whitespace-nowrap">{el.sehriTime}</td>
-                        <td className="px-6 py-4 whitespace-nowrap">{el.fazarTime}</td>
-                        <td className="px-6 py-4 whitespace-nowrap">{el.iftarTime}</td>
+                        <td className="px-6 py-4 whitespace-nowrap">{el.sehriHour + ':' + el.sehriMinutes + ' ' + el.sehriTime}</td>
+                        <td className="px-6 py-4 whitespace-nowrap">{el.iftarHour + ':' + el.iftarMinutes + ' ' + el.iftarTime}</td>
                     </tr>
+                    {/* <td className="px-6 py-4 whitespace-nowrap">{el.fazarTime}</td> */}
                     {/* <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
                         <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">{el.id}</td>
                         <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">{el.date}</td>
@@ -39,7 +39,7 @@ const Dhaka = () => {
                     <th scope="col" className="px-6 py-3 text-left tracking-wider">Date</th>
                     <th scope="col" className="px-6 py-3 text-left tracking-wider">Day</th>
                     <th scope="col" className="px-6 py-3 text-left tracking-wider">Sehri Last Time</th>
-                    <th scope="col" className="px-6 py-3 text-left tracking-wider">Fazar Waqt Start</th>
+                    {/* <th scope="col" className="px-6 py-3 text-left tracking-wider">Fazar Waqt Start</th> */}
                     <th scope="col" className="px-6 py-3 text-left tracking-wider">Iftar Time</th>
                 </tr>
             </thead>
