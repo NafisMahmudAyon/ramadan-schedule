@@ -167,7 +167,10 @@ const App = () => {
       <div className='bg2'>
         <img src={BG2} alt='a' />
       </div>
-        <div className='schedule mt-20 mb-10'>
+      <div className='w-[25%] sss'>
+        <p>lorem imsuhskadnasdha kdkada mgdka dmajd amjdba; yaukmdambd gahgav m j avhnmgv </p>
+      </div>
+        <div className='schedule w-[50%] mt-20 mb-10'>
         
         <select id="options" value={selectedOption} onChange={handleChange} class="block w-full px-4 py-3 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500">
           <option selected value="Dhaka">Dhaka</option>
