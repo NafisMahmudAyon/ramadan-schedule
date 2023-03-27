@@ -167,9 +167,9 @@ const App = () => {
       <div className='bg2'>
         <img src={BG2} alt='a' />
       </div>
-      <div className='heading font-bold text-5xl text-center pt-10 top-0 left-[50%] text-emerald-300'>
+      <div className='heading font-bold text-5xl sm:text-3xl md:text-3xl text-center pt-10 top-0 left-[50%] text-emerald-300'>
         
-        <h1 class=" inline-block head items-center text-5xl font-extrabold">Ramadan Calender</h1><span class="inline-block text bg-emerald-300 text-stone-900 text-2xl font-semibold mr-2 px-2.5 py-0.5 rounded ml-2">2023</span>
+        <h1 class=" inline-block head items-center text-5xl  font-extrabold">Ramadan Calender</h1><span class="inline-block text bg-emerald-300 text-stone-900 text-2xl font-semibold mr-2 px-2.5 py-0.5 rounded ml-2">2023</span>
 
         </div>
       <div className='content grid'>
