@@ -261,14 +261,14 @@ const App = () => {
           <div className=' pr-[30px] pl-[30px]  left'>
             <h2 className='text-5xl text-emerald-300 pb-2'>রোজার নিয়ত</h2>
             <p className='text-3xl text-white pb-5'>نَوَيْتُ اَنْ اُصُوْمَ غَدًا مِّنْ شَهْرِ رَمْضَانَ الْمُبَارَكِ فَرْضَا لَكَ يَا اللهُ فَتَقَبَّل مِنِّى اِنَّكَ اَنْتَ السَّمِيْعُ الْعَلِيْم </p>
-            <p className='text-lg text-emerald-300 pb-2'><span className='text-stone-900 special'>উচ্চারণ: </span> নাওয়াইতু আন আছুম্মা গাদাম মিন শাহরি রমাজানাল মুবারাকি ফারদাল্লাকা, ইয়া আল্লাহু ফাতাকাব্বাল মিন্নি ইন্নিকা আনতাস সামিউল আলিম।</p>
-            <p className='text-lg text-emerald-300'><span className='text-stone-900 special'>বাংলা অনুবাদ: </span> হে আল্লাহ! আমি আগামীকাল পবিত্র রমজানের তোমার পক্ষ থেকে নির্ধারিত ফরজ রোজা রাখার ইচ্ছা পোষণ (নিয়্যত) করলাম। অতএব তুমি আমার পক্ষ থেকে (আমার রোযা তথা পানাহার থেকে বিরত থাকাকে) কবুল কর, নিশ্চয়ই তুমি সর্বশ্রোতা ও সর্বজ্ঞানী।</p>
+            <p className='text-lg text-emerald-300 pb-2'><span className='text-emerald-300 special'>উচ্চারণ: </span> নাওয়াইতু আন আছুম্মা গাদাম মিন শাহরি রমাজানাল মুবারাকি ফারদাল্লাকা, ইয়া আল্লাহু ফাতাকাব্বাল মিন্নি ইন্নিকা আনতাস সামিউল আলিম।</p>
+            <p className='text-lg text-emerald-300'><span className='text-emerald-300 special'>বাংলা অনুবাদ: </span> হে আল্লাহ! আমি আগামীকাল পবিত্র রমজানের তোমার পক্ষ থেকে নির্ধারিত ফরজ রোজা রাখার ইচ্ছা পোষণ (নিয়্যত) করলাম। অতএব তুমি আমার পক্ষ থেকে (আমার রোযা তথা পানাহার থেকে বিরত থাকাকে) কবুল কর, নিশ্চয়ই তুমি সর্বশ্রোতা ও সর্বজ্ঞানী।</p>
           </div>
           <div className=' pr-[30px] pl-[30px]  right'>
             <h2 className='text-5xl text-emerald-300 pb-2'>ইফতারের দোয়া</h2>
             <p className='text-3xl text-white pb-5'> اَللَّهُمَّ لَكَ صُمْتُ وَ عَلَى رِزْقِكَ وَ اَفْطَرْتُ بِرَحْمَتِكَ يَا اَرْحَمَ الرَّاحِيْمِيْن </p>
-            <p className='text-lg text-emerald-300 pb-2'><span className='text-stone-900 special'>উচ্চারণ: </span> আল্লাহুম্মা লাকা ছুমতু ওয়া আলা রিযক্বিকা ওয়া আফতারতু বিরাহমাতিকা ইয়া আরহামার রাহিমিন।</p>
-            <p className='text-lg text-emerald-300'><span className='text-stone-900 special'>বাংলা অনুবাদ: </span> হে আল্লাহ! আমি তোমারই সন্তুষ্টির জন্য রোজা রেখেছি এবং তোমারই দেয়া রিযিক্বের মাধ্যমে ইফতার করছি।</p>
+            <p className='text-lg text-emerald-300 pb-2'><span className='text-emerald-300 special'>উচ্চারণ: </span> আল্লাহুম্মা লাকা ছুমতু ওয়া আলা রিযক্বিকা ওয়া আফতারতু বিরাহমাতিকা ইয়া আরহামার রাহিমিন।</p>
+            <p className='text-lg text-emerald-300'><span className='text-emerald-300 special'>বাংলা অনুবাদ: </span> হে আল্লাহ! আমি তোমারই সন্তুষ্টির জন্য রোজা রেখেছি এবং তোমারই দেয়া রিযিক্বের মাধ্যমে ইফতার করছি।</p>
           </div>
           </div>
         </div>
