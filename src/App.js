@@ -167,8 +167,13 @@ const App = () => {
       <div className='bg2'>
         <img src={BG2} alt='a' />
       </div>
-      <div className='content grid gap-4'>
-        <div className='schedule w-full pr-4 pl-4 mt-20 mb-10'>
+      <div className='heading font-bold text-5xl text-center pt-10 top-0 left-[50%] text-emerald-300'>
+        
+        <h1 class=" inline-block head items-center text-5xl font-extrabold">Ramadan Calender</h1><span class="inline-block text bg-emerald-300 text-stone-900 text-2xl font-semibold mr-2 px-2.5 py-0.5 rounded ml-2">2023</span>
+
+        </div>
+      <div className='content grid'>
+        <div className='schedule w-full px-5 mt-40 mb-10'>
         
           <select id="options" value={selectedOption} onChange={handleChange} class="block w-full px-4 py-3 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500">
             <option selected value="Dhaka">Dhaka</option>
@@ -256,14 +261,14 @@ const App = () => {
           <div className=' pr-[30px] pl-[30px]  left'>
             <h2 className='text-5xl text-emerald-300 pb-2'>রোজার নিয়ত</h2>
             <p className='text-3xl text-white pb-5'>نَوَيْتُ اَنْ اُصُوْمَ غَدًا مِّنْ شَهْرِ رَمْضَانَ الْمُبَارَكِ فَرْضَا لَكَ يَا اللهُ فَتَقَبَّل مِنِّى اِنَّكَ اَنْتَ السَّمِيْعُ الْعَلِيْم </p>
-            <p className='text-lg text-emerald-300 pb-2'><span className='text-stone-900'>উচ্চারণ: </span> নাওয়াইতু আন আছুম্মা গাদাম মিন শাহরি রমাজানাল মুবারাকি ফারদাল্লাকা, ইয়া আল্লাহু ফাতাকাব্বাল মিন্নি ইন্নিকা আনতাস সামিউল আলিম।</p>
-            <p className='text-lg text-emerald-300'><span className='text-stone-900'>বাংলা অনুবাদ: </span> হে আল্লাহ! আমি আগামীকাল পবিত্র রমজানের তোমার পক্ষ থেকে নির্ধারিত ফরজ রোজা রাখার ইচ্ছা পোষণ (নিয়্যত) করলাম। অতএব তুমি আমার পক্ষ থেকে (আমার রোযা তথা পানাহার থেকে বিরত থাকাকে) কবুল কর, নিশ্চয়ই তুমি সর্বশ্রোতা ও সর্বজ্ঞানী।</p>
+            <p className='text-lg text-emerald-300 pb-2'><span className='text-stone-900 special'>উচ্চারণ: </span> নাওয়াইতু আন আছুম্মা গাদাম মিন শাহরি রমাজানাল মুবারাকি ফারদাল্লাকা, ইয়া আল্লাহু ফাতাকাব্বাল মিন্নি ইন্নিকা আনতাস সামিউল আলিম।</p>
+            <p className='text-lg text-emerald-300'><span className='text-stone-900 special'>বাংলা অনুবাদ: </span> হে আল্লাহ! আমি আগামীকাল পবিত্র রমজানের তোমার পক্ষ থেকে নির্ধারিত ফরজ রোজা রাখার ইচ্ছা পোষণ (নিয়্যত) করলাম। অতএব তুমি আমার পক্ষ থেকে (আমার রোযা তথা পানাহার থেকে বিরত থাকাকে) কবুল কর, নিশ্চয়ই তুমি সর্বশ্রোতা ও সর্বজ্ঞানী।</p>
           </div>
           <div className=' pr-[30px] pl-[30px]  right'>
             <h2 className='text-5xl text-emerald-300 pb-2'>ইফতারের দোয়া</h2>
             <p className='text-3xl text-white pb-5'> اَللَّهُمَّ لَكَ صُمْتُ وَ عَلَى رِزْقِكَ وَ اَفْطَرْتُ بِرَحْمَتِكَ يَا اَرْحَمَ الرَّاحِيْمِيْن </p>
-            <p className='text-lg text-emerald-300 pb-2'><span className='text-stone-900'>উচ্চারণ: </span> আল্লাহুম্মা লাকা ছুমতু ওয়া আলা রিযক্বিকা ওয়া আফতারতু বিরাহমাতিকা ইয়া আরহামার রাহিমিন।</p>
-            <p className='text-lg text-emerald-300'><span className='text-stone-900'>বাংলা অনুবাদ: </span> হে আল্লাহ! আমি তোমারই সন্তুষ্টির জন্য রোজা রেখেছি এবং তোমারই দেয়া রিযিক্বের মাধ্যমে ইফতার করছি।</p>
+            <p className='text-lg text-emerald-300 pb-2'><span className='text-stone-900 special'>উচ্চারণ: </span> আল্লাহুম্মা লাকা ছুমতু ওয়া আলা রিযক্বিকা ওয়া আফতারতু বিরাহমাতিকা ইয়া আরহামার রাহিমিন।</p>
+            <p className='text-lg text-emerald-300'><span className='text-stone-900 special'>বাংলা অনুবাদ: </span> হে আল্লাহ! আমি তোমারই সন্তুষ্টির জন্য রোজা রেখেছি এবং তোমারই দেয়া রিযিক্বের মাধ্যমে ইফতার করছি।</p>
           </div>
           </div>
         </div>
