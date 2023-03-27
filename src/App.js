@@ -167,7 +167,7 @@ const App = () => {
       <div className='bg2'>
         <img src={BG2} alt='a' />
       </div>
-      <div className='content w-[80%] grid gap-4'>
+      <div className='content w-[80%] sm:w-full grid gap-4'>
         <div className='schedule w-full pr-4 pl-4 mt-20 mb-10'>
         
           <select id="options" value={selectedOption} onChange={handleChange} class="block w-full px-4 py-3 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500">
