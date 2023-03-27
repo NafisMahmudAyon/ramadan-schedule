@@ -167,101 +167,106 @@ const App = () => {
       <div className='bg2'>
         <img src={BG2} alt='a' />
       </div>
-      
-        <div className='schedule w-[40%] mt-20 mb-10'>
+      <div className='content w-[80%] grid gap-4'>
+        <div className='schedule w-full pr-4 pl-4 mt-20 mb-10'>
         
-        <select id="options" value={selectedOption} onChange={handleChange} class="block w-full px-4 py-3 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500">
-          <option selected value="Dhaka">Dhaka</option>
-          <option value="Barisal">Barisal</option>
-          <option value="Chittagong">Chittagong</option>
-          <option value="Khulna">Khulna</option>
-          <option value="Mymensingh">Mymensingh</option>
-          <option value="Rajshahi">Rajshahi</option>
-          <option value="Rangpur">Rangpur</option>
-          <option value="Sylhet">Sylhet</option>
-          
-        </select>
-        {/* <label htmlFor="options">Select an option:</label>
-        <select id="options" value={selectedOption} onChange={handleChange}> */}
-          {/* <option value="Bagerhat">Bagerhat</option>
-          <option value="Bandarban">Bandarban</option>
-          <option value="Barguna">Barguna</option> */}
-          {/* <option value="Barisal">Barisal</option> */}
-          {/* <option value="Bhola">Bhola</option>
-          <option value="Bogra">Bogra</option>
-          <option value="Brahmanbaria">Brahmanbaria</option>
-          <option value="Chandpur">Chandpur</option>
-          <option value="Chapainawabganj">Chapainawabganj</option> */}
-          {/* <option value="Chittagong">Chittagong</option> */}
-          {/* <option value="Chuadanga">Chuadanga</option>
-          <option value="Comilla">Comilla</option>
-          <option value="Cox's Bazar">Cox's Bazar</option> */}
-          {/* <option selected value="Dhaka">Dhaka</option> */}
-          {/* <option value="Dinajpur">Dinajpur</option>
-          <option value="Faridpur">Faridpur</option>
-          <option value="Feni">Feni</option>
-          <option value="Gaibandha">Gaibandha</option>
-          <option value="Gazipur">Gazipur</option>
-          <option value="Gopalganj">Gopalganj</option>
-          <option value="Habiganj">Habiganj</option>
-          <option value="Jamalpur">Jamalpur</option>
-          <option value="Jessore">Jessore</option>
-          <option value="Jhalakati">Jhalakati</option>
-          <option value="Jhenaidah">Jhenaidah</option>
-          <option value="Joypurhat">Joypurhat</option>
-          <option value="Khagrachari">Khagrachari</option> */}
-          {/* <option value="Khulna">Khulna</option> */}
-          {/* <option value="Kishoreganj">Kishoreganj</option>
-          <option value="Kurigram">Kurigram</option>
-          <option value="Kushtia">Kushtia</option>
-          <option value="Lakshmipur">Lakshmipur</option>
-          <option value="Lalmonirhat">Lalmonirhat</option>
-          <option value="Madaripur">Madaripur</option>
-          <option value="Magura">Magura</option>
-          <option value="Manikganj">Manikganj</option>
-          <option value="Meherpur">Meherpur</option>
-          <option value="Moulvibazar">Moulvibazar</option>
-          <option value="Munshiganj">Munshiganj</option> */}
-          {/* <option value="Mymensingh">Mymensingh</option> */}
-          {/* <option value="Naogaon">Naogaon</option>
-          <option value="Narail">Narail</option>
-          <option value="Narayanganj">Narayanganj</option>
-          <option value="Narsingdi">Narsingdi</option>
-          <option value="Natore">Natore</option>
-          <option value="Nawabganj">Nawabganj</option>
-          <option value="Netrakona">Netrakona</option>
-          <option value="Nilphamari">Nilphamari</option>
-          <option value="Noakhali">Noakhali</option>
-          <option value="Pabna">Pabna</option>
-          <option value="Panchagarh">Panchagarh</option>
-          <option value="Patuakhali">Patuakhali</option>
-          <option value="Pirojpur">Pirojpur</option>
-          <option value="Rajbari">Rajbari</option> */}
-          {/* <option value="Rajshahi">Rajshahi</option> */}
-          {/* <option value="Rangamati">Rangamati</option> */}
-          {/* <option value="Rangpur">Rangpur</option> */}
-          {/* <option value="Satkhira">Satkhira</option>
-          <option value="Shariatpur">Shariatpur</option>
-          <option value="Sherpur">Sherpur</option>
-          <option value="Sirajganj">Sirajganj</option>
-          <option value="Sunamganj">Sunamganj</option> */}
-          {/* <option value="Sylhet">Sylhet</option> */}
-          {/* <option value="Tangail">Tangail</option>
-          <option value="Thakurgaon">Thakurgaon</option> */}
-        {/* </select> */}
-        {renderComponent()}
-      </div>
-      <div className='w-[27%] pr-[30px] pl-[30px]  left'>
-        <h2 className='text-5xl text-emerald-300 pb-2'>রোজার নিয়ত</h2>
-        <p className='text-3xl text-white pb-5'>نَوَيْتُ اَنْ اُصُوْمَ غَدًا مِّنْ شَهْرِ رَمْضَانَ الْمُبَارَكِ فَرْضَا لَكَ يَا اللهُ فَتَقَبَّل مِنِّى اِنَّكَ اَنْتَ السَّمِيْعُ الْعَلِيْم </p>
-        <p className='text-lg text-emerald-300 pb-2'><span className='text-stone-900'>উচ্চারণ: </span> নাওয়াইতু আন আছুম্মা গাদাম মিন শাহরি রমাজানাল মুবারাকি ফারদাল্লাকা, ইয়া আল্লাহু ফাতাকাব্বাল মিন্নি ইন্নিকা আনতাস সামিউল আলিম।</p>
-        <p className='text-lg text-emerald-300'><span className='text-stone-900'>বাংলা অনুবাদ: </span> হে আল্লাহ! আমি আগামীকাল পবিত্র রমজানের তোমার পক্ষ থেকে নির্ধারিত ফরজ রোজা রাখার ইচ্ছা পোষণ (নিয়্যত) করলাম। অতএব তুমি আমার পক্ষ থেকে (আমার রোযা তথা পানাহার থেকে বিরত থাকাকে) কবুল কর, নিশ্চয়ই তুমি সর্বশ্রোতা ও সর্বজ্ঞানী।</p>
-      </div>
-      <div className='w-[27%] pr-[30px] pl-[30px]  right'>
-        <h2 className='text-5xl text-emerald-300 pb-2'>ইফতারের দোয়া</h2>
-        <p className='text-3xl text-white pb-5'> اَللَّهُمَّ لَكَ صُمْتُ وَ عَلَى رِزْقِكَ وَ اَفْطَرْتُ بِرَحْمَتِكَ يَا اَرْحَمَ الرَّاحِيْمِيْن </p>
-        <p className='text-lg text-emerald-300 pb-2'><span className='text-stone-900'>উচ্চারণ: </span> আল্লাহুম্মা লাকা ছুমতু ওয়া আলা রিযক্বিকা ওয়া আফতারতু বিরাহমাতিকা ইয়া আরহামার রাহিমিন।</p>
-        <p className='text-lg text-emerald-300'><span className='text-stone-900'>বাংলা অনুবাদ: </span> হে আল্লাহ! আমি তোমারই সন্তুষ্টির জন্য রোজা রেখেছি এবং তোমারই দেয়া রিযিক্বের মাধ্যমে ইফতার করছি।</p>
+          <select id="options" value={selectedOption} onChange={handleChange} class="block w-full px-4 py-3 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500">
+            <option selected value="Dhaka">Dhaka</option>
+            <option value="Barisal">Barisal</option>
+            <option value="Chittagong">Chittagong</option>
+            <option value="Khulna">Khulna</option>
+            <option value="Mymensingh">Mymensingh</option>
+            <option value="Rajshahi">Rajshahi</option>
+            <option value="Rangpur">Rangpur</option>
+            <option value="Sylhet">Sylhet</option>
+            
+          </select>
+          {/* <label htmlFor="options">Select an option:</label>
+          <select id="options" value={selectedOption} onChange={handleChange}> */}
+            {/* <option value="Bagerhat">Bagerhat</option>
+            <option value="Bandarban">Bandarban</option>
+            <option value="Barguna">Barguna</option> */}
+            {/* <option value="Barisal">Barisal</option> */}
+            {/* <option value="Bhola">Bhola</option>
+            <option value="Bogra">Bogra</option>
+            <option value="Brahmanbaria">Brahmanbaria</option>
+            <option value="Chandpur">Chandpur</option>
+            <option value="Chapainawabganj">Chapainawabganj</option> */}
+            {/* <option value="Chittagong">Chittagong</option> */}
+            {/* <option value="Chuadanga">Chuadanga</option>
+            <option value="Comilla">Comilla</option>
+            <option value="Cox's Bazar">Cox's Bazar</option> */}
+            {/* <option selected value="Dhaka">Dhaka</option> */}
+            {/* <option value="Dinajpur">Dinajpur</option>
+            <option value="Faridpur">Faridpur</option>
+            <option value="Feni">Feni</option>
+            <option value="Gaibandha">Gaibandha</option>
+            <option value="Gazipur">Gazipur</option>
+            <option value="Gopalganj">Gopalganj</option>
+            <option value="Habiganj">Habiganj</option>
+            <option value="Jamalpur">Jamalpur</option>
+            <option value="Jessore">Jessore</option>
+            <option value="Jhalakati">Jhalakati</option>
+            <option value="Jhenaidah">Jhenaidah</option>
+            <option value="Joypurhat">Joypurhat</option>
+            <option value="Khagrachari">Khagrachari</option> */}
+            {/* <option value="Khulna">Khulna</option> */}
+            {/* <option value="Kishoreganj">Kishoreganj</option>
+            <option value="Kurigram">Kurigram</option>
+            <option value="Kushtia">Kushtia</option>
+            <option value="Lakshmipur">Lakshmipur</option>
+            <option value="Lalmonirhat">Lalmonirhat</option>
+            <option value="Madaripur">Madaripur</option>
+            <option value="Magura">Magura</option>
+            <option value="Manikganj">Manikganj</option>
+            <option value="Meherpur">Meherpur</option>
+            <option value="Moulvibazar">Moulvibazar</option>
+            <option value="Munshiganj">Munshiganj</option> */}
+            {/* <option value="Mymensingh">Mymensingh</option> */}
+            {/* <option value="Naogaon">Naogaon</option>
+            <option value="Narail">Narail</option>
+            <option value="Narayanganj">Narayanganj</option>
+            <option value="Narsingdi">Narsingdi</option>
+            <option value="Natore">Natore</option>
+            <option value="Nawabganj">Nawabganj</option>
+            <option value="Netrakona">Netrakona</option>
+            <option value="Nilphamari">Nilphamari</option>
+            <option value="Noakhali">Noakhali</option>
+            <option value="Pabna">Pabna</option>
+            <option value="Panchagarh">Panchagarh</option>
+            <option value="Patuakhali">Patuakhali</option>
+            <option value="Pirojpur">Pirojpur</option>
+            <option value="Rajbari">Rajbari</option> */}
+            {/* <option value="Rajshahi">Rajshahi</option> */}
+            {/* <option value="Rangamati">Rangamati</option> */}
+            {/* <option value="Rangpur">Rangpur</option> */}
+            {/* <option value="Satkhira">Satkhira</option>
+            <option value="Shariatpur">Shariatpur</option>
+            <option value="Sherpur">Sherpur</option>
+            <option value="Sirajganj">Sirajganj</option>
+            <option value="Sunamganj">Sunamganj</option> */}
+            {/* <option value="Sylhet">Sylhet</option> */}
+            {/* <option value="Tangail">Tangail</option>
+            <option value="Thakurgaon">Thakurgaon</option> */}
+          {/* </select> */}
+          {renderComponent()}
+        </div>
+        <div className='w-[100%] grid items-center min-h-screen  z-30'>
+            <div>
+          <div className=' pr-[30px] pl-[30px]  left'>
+            <h2 className='text-5xl text-emerald-300 pb-2'>রোজার নিয়ত</h2>
+            <p className='text-3xl text-white pb-5'>نَوَيْتُ اَنْ اُصُوْمَ غَدًا مِّنْ شَهْرِ رَمْضَانَ الْمُبَارَكِ فَرْضَا لَكَ يَا اللهُ فَتَقَبَّل مِنِّى اِنَّكَ اَنْتَ السَّمِيْعُ الْعَلِيْم </p>
+            <p className='text-lg text-emerald-300 pb-2'><span className='text-stone-900'>উচ্চারণ: </span> নাওয়াইতু আন আছুম্মা গাদাম মিন শাহরি রমাজানাল মুবারাকি ফারদাল্লাকা, ইয়া আল্লাহু ফাতাকাব্বাল মিন্নি ইন্নিকা আনতাস সামিউল আলিম।</p>
+            <p className='text-lg text-emerald-300'><span className='text-stone-900'>বাংলা অনুবাদ: </span> হে আল্লাহ! আমি আগামীকাল পবিত্র রমজানের তোমার পক্ষ থেকে নির্ধারিত ফরজ রোজা রাখার ইচ্ছা পোষণ (নিয়্যত) করলাম। অতএব তুমি আমার পক্ষ থেকে (আমার রোযা তথা পানাহার থেকে বিরত থাকাকে) কবুল কর, নিশ্চয়ই তুমি সর্বশ্রোতা ও সর্বজ্ঞানী।</p>
+          </div>
+          <div className=' pr-[30px] pl-[30px]  right'>
+            <h2 className='text-5xl text-emerald-300 pb-2'>ইফতারের দোয়া</h2>
+            <p className='text-3xl text-white pb-5'> اَللَّهُمَّ لَكَ صُمْتُ وَ عَلَى رِزْقِكَ وَ اَفْطَرْتُ بِرَحْمَتِكَ يَا اَرْحَمَ الرَّاحِيْمِيْن </p>
+            <p className='text-lg text-emerald-300 pb-2'><span className='text-stone-900'>উচ্চারণ: </span> আল্লাহুম্মা লাকা ছুমতু ওয়া আলা রিযক্বিকা ওয়া আফতারতু বিরাহমাতিকা ইয়া আরহামার রাহিমিন।</p>
+            <p className='text-lg text-emerald-300'><span className='text-stone-900'>বাংলা অনুবাদ: </span> হে আল্লাহ! আমি তোমারই সন্তুষ্টির জন্য রোজা রেখেছি এবং তোমারই দেয়া রিযিক্বের মাধ্যমে ইফতার করছি।</p>
+          </div>
+          </div>
+        </div>
       </div>
     </div>
       

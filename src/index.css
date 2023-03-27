@@ -20,7 +20,7 @@ code {
     monospace;
 }
 
-.left {
+/* .left {
   position: fixed;
   left: 0;
   bottom: 20px;
@@ -30,7 +30,7 @@ code {
   position: fixed;
   right: 0;
   bottom: 20px;
-}
+} */
 
 /* @media only screen 
   and (min-device-width: 320px) 
@@ -48,7 +48,8 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  /* position: relative; */
+
 }
 .bg1  img{
   width: 100vw;
@@ -68,4 +69,29 @@ code {
 }
 .schedule {
   z-index: 100;
+}
+.left {
+  z-index: 100;
+}
+.right {
+  z-index: 100;
+}
+
+@media (min-width: 640px) {
+  .sm\:grid-cols-1 {
+    width: 100%;
+      grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 768px) {
+  .content {
+      grid-template-columns: 2fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content {
+      grid-template-columns: 2fr 1fr;
+  }
 }
