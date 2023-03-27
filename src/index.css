@@ -78,7 +78,7 @@ code {
 }
 
 @media (min-width: 640px) {
-  .sm\:grid-cols-1 {
+  .content {
     width: 100%;
       grid-template-columns: 1fr;
       height: auto;
@@ -87,6 +87,7 @@ code {
 
 @media (min-width: 768px) {
   .content {
+    width: 80%;
       grid-template-columns: 2fr 1fr;
   }
 }
