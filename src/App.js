@@ -12,6 +12,7 @@ import Mymensingh from './component/Mymensingh/Mymensingh'
 import Rajshahi from './component/Rajshahi/Rajshahi'
 import Rangpur from './component/Rangpur/Rangpur'
 import Sylhet from './component/Sylhet/Sylhet'
+import Calendar from './component/Calendar';
 
 const App = () => {
   const [selectedOption, setSelectedOption] = useState('Bagerhat');
@@ -273,6 +274,7 @@ const App = () => {
           </div>
         </div>
       </div>
+      <Calendar />
     </div>
       
     </>
