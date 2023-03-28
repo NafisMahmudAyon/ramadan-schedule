@@ -13,8 +13,8 @@ const Chittagong = () => {
                         <td className="px-3 py-3">{el.id}</td>
                         <td className="px-3 py-3">{el.date}</td>
                         <td className="px-3 py-3">{el.day}</td>
-                        <td className="px-3 py-3">{el.sehriHour} : {el.sehriMinutes - 2} {el.sehriTime}</td>
-                        <td className="px-3 py-3">{el.iftarHour} : {el.iftarMinutes - 8} {el.iftarTime}</td>
+                        <td className="px-3 py-3">{el.sehriHour} : {el.sehriMinutes - 4} {el.sehriTime}</td>
+                        <td className="px-3 py-3">{el.iftarHour} : {el.iftarMinutes - 7} {el.iftarTime}</td>
                     </tr>
                     {/* <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
                         <td className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">{el.id}</td>

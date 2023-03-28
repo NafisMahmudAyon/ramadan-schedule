@@ -2,7 +2,7 @@ const Time = [
     {
         id: '01',
         date: "2023-03-24",
-        day: "Ftiday",
+        day: "Friday",
         sehriHour: "04",
         sehriMinutes: 39,
         sehriTime: "AM",
@@ -16,7 +16,7 @@ const Time = [
     {
         id: '02',
         date: "2023-03-25",
-        day: "Ftiday",
+        day: "Saturday",
         sehriHour: '04',
         sehriMinutes: 38,
         sehriTime: "AM",
@@ -30,7 +30,7 @@ const Time = [
     {
         id: '03',
         date: "2023-03-26",
-        day: "Ftiday",
+        day: "Sunday",
         sehriHour: '04',
         sehriMinutes: 36,
         sehriTime: "AM",
@@ -44,7 +44,7 @@ const Time = [
     {
         id: '04',
         date: "2023-03-27",
-        day: "Ftiday",
+        day: "Monday",
         sehriHour: '04',
         sehriMinutes: 35,
         sehriTime: "AM",
@@ -58,7 +58,7 @@ const Time = [
     {
         id: '05',
         date: "2023-03-28",
-        day: "Ftiday",
+        day: "Tuesday",
         sehriHour: '04',
         sehriMinutes: 34,
         sehriTime: "AM",
@@ -72,7 +72,7 @@ const Time = [
     {
         id: '06',
         date: "2023-03-29",
-        day: "Ftiday",
+        day: "Wednesday",
         sehriHour: '04',
         sehriMinutes: 32,
         sehriTime: "AM",
@@ -86,7 +86,7 @@ const Time = [
     {
         id: '07',
         date: "2023-03-30",
-        day: "Ftiday",
+        day: "Thursday",
         sehriHour: '04',
         sehriMinutes: 31,
         sehriTime: "AM",
@@ -100,7 +100,7 @@ const Time = [
     {
         id: '08',
         date: "2023-03-31",
-        day: "Ftiday",
+        day: "Friday",
         sehriHour: '04',
         sehriMinutes: 30,
         sehriTime: "AM",
@@ -114,7 +114,7 @@ const Time = [
     {
         id: '09',
         date: "2023-04-01",
-        day: "Ftiday",
+        day: "Saturday",
         sehriHour: '04',
         sehriMinutes: 29,
         sehriTime: "AM",
@@ -128,7 +128,7 @@ const Time = [
     {
         id: '10',
         date: "2023-04-02",
-        day: "Ftiday",
+        day: "Sunday",
         sehriHour: '04',
         sehriMinutes: 28,
         sehriTime: "AM",
@@ -142,7 +142,7 @@ const Time = [
     {
         id: '11',
         date: "2023-04-03",
-        day: "Ftiday",
+        day: "Monday",
         sehriHour: '04',
         sehriMinutes: 27,
         sehriTime: "AM",
@@ -156,7 +156,7 @@ const Time = [
     {
         id: '12',
         date: "2023-04-04",
-        day: "Ftiday",
+        day: "Tuesday",
         sehriHour: '04',
         sehriMinutes: 26,
         sehriTime: "AM",
@@ -170,7 +170,7 @@ const Time = [
     {
         id: '13',
         date: "2023-04-05",
-        day: "Ftiday",
+        day: "Wednesday",
         sehriHour: '04',
         sehriMinutes: 24,
         sehriTime: "AM",
@@ -184,7 +184,7 @@ const Time = [
     {
         id: '14',
         date: "2023-04-06",
-        day: "Ftiday",
+        day: "Thursday",
         sehriHour: '04',
         sehriMinutes: 24,
         sehriTime: "AM",
@@ -198,7 +198,7 @@ const Time = [
     {
         id: '15',
         date: "2023-04-07",
-        day: "Ftiday",
+        day: "Friday",
         sehriHour: '04',
         sehriMinutes: 23,
         sehriTime: "AM",
@@ -212,7 +212,7 @@ const Time = [
     {
         id: '16',
         date: "2023-04-08",
-        day: "Ftiday",
+        day: "Saturday",
         sehriHour: '04',
         sehriMinutes: 22,
         sehriTime: "AM",
@@ -226,7 +226,7 @@ const Time = [
     {
         id: '17',
         date: "2023-04-09",
-        day: "Ftiday",
+        day: "Sunday",
         sehriHour: '04',
         sehriMinutes: 21,
         sehriTime: "AM",
@@ -240,7 +240,7 @@ const Time = [
     {
         id: '18',
         date: "2023-04-10",
-        day: "Ftiday",
+        day: "Monday",
         sehriHour: '04',
         sehriMinutes: 20,
         sehriTime: "AM",
@@ -254,7 +254,7 @@ const Time = [
     {
         id: '19',
         date: "2023-04-11",
-        day: "Ftiday",
+        day: "Tuesday",
         sehriHour: '04',
         sehriMinutes: 19,
         sehriTime: "AM",
@@ -268,7 +268,7 @@ const Time = [
     {
         id: '20',
         date: "2023-04-12",
-        day: "Ftiday",
+        day: "Wednesday",
         sehriHour: '04',
         sehriMinutes: 18,
         sehriTime: "AM",
@@ -282,7 +282,7 @@ const Time = [
     {
         id: '21',
         date: "2023-04-13",
-        day: "Ftiday",
+        day: "Thursday",
         sehriHour: '04',
         sehriMinutes: 17,
         sehriTime: "AM",
@@ -296,7 +296,7 @@ const Time = [
     {
         id: '22',
         date: "2023-04-14",
-        day: "Ftiday",
+        day: "Friday",
         sehriHour: '04',
         sehriMinutes: 15,
         sehriTime: "AM",
@@ -310,7 +310,7 @@ const Time = [
     {
         id: '23',
         date: "2023-04-15",
-        day: "Ftiday",
+        day: "Saturday",
         sehriHour: '04',
         sehriMinutes: 14,
         sehriTime: "AM",
@@ -324,7 +324,7 @@ const Time = [
     {
         id: '24',
         date: "2023-04-16",
-        day: "Ftiday",
+        day: "Sunday",
         sehriHour: '04',
         sehriMinutes: 13,
         sehriTime: "AM",
@@ -338,7 +338,7 @@ const Time = [
     {
         id: '25',
         date: "2023-04-17",
-        day: "Ftiday",
+        day: "Monday",
         sehriHour: '04',
         sehriMinutes: 12,
         sehriTime: "AM",
@@ -352,7 +352,7 @@ const Time = [
     {
         id: '26',
         date: "2023-04-18",
-        day: "Ftiday",
+        day: "Tuesday",
         sehriHour: '04',
         sehriMinutes: 11,
         sehriTime: "AM",
@@ -366,7 +366,7 @@ const Time = [
     {
         id: '27',
         date: "2023-04-19",
-        day: "Ftiday",
+        day: "Wednesday",
         sehriHour: '04',
         sehriMinutes: 10,
         sehriTime: "AM",
@@ -380,7 +380,7 @@ const Time = [
     {
         id: '28',
         date: "2023-04-20",
-        day: "Ftiday",
+        day: "Thursday",
         sehriHour: '04',
         sehriMinutes: 9,
         sehriTime: "AM",
@@ -394,7 +394,7 @@ const Time = [
     {
         id: '29',
         date: "2023-04-21",
-        day: "Ftiday",
+        day: "Friday",
         sehriHour: '04',
         sehriMinutes: 8,
         sehriTime: "AM",
@@ -408,7 +408,7 @@ const Time = [
     {
         id: '30',
         date: "2023-04-22",
-        day: "Ftiday",
+        day: "Saturday",
         sehriHour: '04',
         sehriMinutes: 7,
         sehriTime: "AM",
