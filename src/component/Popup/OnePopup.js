@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Popup from "../Pop";
 import Time from '../Time/Tiime'
 
-const OneHover = () => {
+const OnePopup = () => {
 
     const [showPopup, setShowPopup] = useState(false);
 
@@ -51,4 +51,4 @@ const OneHover = () => {
     );
 }
 
-export default OneHover
+export default OnePopup

@@ -27,6 +27,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.calendar{
+  position: relative;
+}
+
+.table {
+  border-radius: 10px;
+}
 
 .heading {
   z-index: 101;

@@ -8,8 +8,19 @@
     position: absolute;
     top: 100%;
     left: 0;
-    padding: 10px;
-    background-color: #fff;
-    border: 1px solid #000;
   }
   
+
+  .component {
+    display: none;
+  }
+  /* .ex {
+    position: relative;
+  } */
+  .show {
+    /* position: absolute;
+    top: 100%;
+    left: 0; */
+    display: block;
+    width: 100%;
+  }
